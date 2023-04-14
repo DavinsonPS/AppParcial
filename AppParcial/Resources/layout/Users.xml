@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+            android:text="USERS"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="80dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblUsers"
+            />
+
+        <TextView
+            android:text="Id"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblTitleName" />
+
+        <EditText
+            android:inputType="number"
+            android:layout_marginLeft="80dp"
+            android:layout_width="222.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtId" />    
+
+        <TextView
+            android:text="User Name"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblUserName" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_marginLeft="80dp"
+            android:layout_width="222.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtUser" />
+
+        <TextView
+            android:text="Password"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblPassword" />
+
+         <EditText
+            android:inputType="textPassword"
+            android:layout_marginLeft="80dp"
+            android:layout_width="214.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPasswordUser" />
+
+
+        <Button
+            android:text="Consult"
+            android:layout_marginLeft="100dp"
+            android:layout_width="178.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnConsul" />
+
+        <Button
+            android:text="Delete"
+            android:layout_marginLeft="100dp"
+            android:layout_width="178.0dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnDelete" />
+
+        <Button
+            android:text="Update"
+            android:layout_marginLeft="100dp"
+            android:layout_width="178.0dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnUpdate" />
+
+</LinearLayout>
